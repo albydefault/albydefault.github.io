@@ -3,6 +3,7 @@
   --sl-content-width: 780px;
   --sl-text-base: 1.25rem;
   --sl-line-height: 1.7;
+  
   /* Override Starlight's font variables */
   --sl-font-system: 'Spectral', serif;
   --sl-font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
@@ -18,6 +19,13 @@ html {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Spectral', serif;
   font-weight: 200 !important;  /* Regular weight for headers */
+}
+
+h1#_top {
+  font-size: 3rem;
+  text-align: center;
+  margin: 3rem auto;
+  max-width: 900px;
 }
 
 h1 {
