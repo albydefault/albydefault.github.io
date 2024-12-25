@@ -1,0 +1,50 @@
+/* Typography */
+:root {
+  --sl-content-width: 780px;
+  --sl-text-base: 1.25rem;
+  --sl-line-height: 1.7;
+  /* Override Starlight's font variables */
+  --sl-font-system: 'Spectral', serif;
+  --sl-font-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, monospace;
+}
+
+/* Global font settings */
+html {
+  font-family: 'Spectral', serif;
+  font-weight: 300;  /* Light weight for body text */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Spectral', serif;
+  font-weight: 200 !important;  /* Regular weight for headers */
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-top: 2.5rem;
+}
+
+/* Navigation and sidebar */
+nav, aside {
+  font-family: 'Spectral', serif;
+  font-weight: 300;
+}
+
+/* All text content */
+p, li, td, th, blockquote, label, input, textarea {
+  font-family: 'Spectral', serif;
+  font-weight: 300;
+  line-height: 1.7;
+  font-size: 1.25rem;
+}
+
+/* Code blocks can keep their monospace font */
+code, pre {
+  font-family: var(--sl-font-mono);
+}
